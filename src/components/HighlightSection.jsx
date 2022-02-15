@@ -14,22 +14,22 @@ function HighlightSection() {
         <HighlightCard
           img={medal}
           text="Quality Assurance"
-          info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga saepe aperiam sit mollitia deserunt perspiciatis doloremque natus, quo quis?"
+          info="We have a quality control team that ensures that each order is exactly as per the order specification."
         />
         <HighlightCard
           img={supplyChain}
           text="Supply Chain Specialization"
-          info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga saepe aperiam sit mollitia deserunt perspiciatis doloremque natus, quo quis?"
+          info="We specialise in supply chain management, so we have complete control over the entire process, from receiving an order to delivery."
         />
         <HighlightCard
           img={warehouse}
           text="Always Stocked"
-          info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga saepe aperiam sit mollitia deserunt perspiciatis doloremque natus, quo quis?"
+          info="We are always in stock, so you won't have to worry about your orders being fulfilled."
         />
         <HighlightCard
           img={rupee}
           text="Best Rates"
-          info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga saepe aperiam sit mollitia deserunt perspiciatis doloremque natus, quo quis?"
+          info="We are dedicated to providing high-quality natural resources at great prices."
         />
       </CardContainer>
     </HighlightSectionContainer>

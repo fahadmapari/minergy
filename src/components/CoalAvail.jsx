@@ -44,7 +44,7 @@ const Image = styled.img`
   position: absolute;
   bottom: 0;
   right: 10%;
-  width: 40%;
+  width: 30%;
   z-index: 1;
   opacity: 0.5;
 

@@ -53,8 +53,12 @@ const Overlay = styled.div`
 const OverlayText = styled.p`
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 1rem;
+
+  @media (max-width: 1024px) {
+    font-size: 2rem;
+  }
 `;
 
 const Card = styled.div`

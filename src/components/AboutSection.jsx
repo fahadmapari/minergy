@@ -11,10 +11,15 @@ function AboutSection() {
       <AboutTextContainer>
         <AboutHeading>About Us</AboutHeading>
         <AboutText>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
-          explicabo minima provident amet quia libero, ratione ex nam aliquid
-          deserunt labore voluptatem voluptas doloremque perspiciatis architecto
-          magnam esse eos temporibus quisquam ea? Quo, totam quasi!
+          Minergy Tradelinks LLP, based in Belagavi (Belagaum), Karnataka, is a
+          company that provides production companies with high-quality natural
+          resources. Minergy Tradelinks LLP is committed to providing only
+          high-quality resources to its clients and ensuring that the entire
+          process runs smoothly from order to delivery. We have a quality
+          control team to ensure that the order's exact specifications are met,
+          and we specialise in supply chain management, so we have complete
+          control over everything from receiving the order to delivery, ensuring
+          that the entire process runs smoothly and on time.
         </AboutText>
       </AboutTextContainer>
     </AboutSectionCotainer>

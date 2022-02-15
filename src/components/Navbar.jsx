@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import styled from "styled-components";
 import logo from "../assets/Minergy-Logo.png";
 
@@ -9,7 +10,11 @@ function Navbar() {
       </div>
 
       <div>
-        <Cta>Get Quote</Cta>
+        <Cta>
+          <Link to="contact" spy={true} smooth={true}>
+            Get Quote
+          </Link>
+        </Cta>
       </div>
     </Nav>
   );

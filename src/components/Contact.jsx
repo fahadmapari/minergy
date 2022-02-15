@@ -6,7 +6,7 @@ import ContactSeperator from "./ContactSeperator";
 function Contact() {
   return (
     <ContactSection>
-      <Heading>Contact Us</Heading>
+      <Heading id="contact">Contact Us</Heading>
       <ContactContainer>
         <ContactGroup>
           <Label>Name</Label>

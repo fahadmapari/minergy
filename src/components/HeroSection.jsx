@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import heroImage from "../assets/hero-image.jpg";
+import { Link } from "react-scroll";
 
 function HeroSection() {
   return (
@@ -9,7 +10,11 @@ function HeroSection() {
       <HeroContentContainer>
         <HeroText>Providing Top Quality</HeroText>
         <HeroTextMain>Natural Resources</HeroTextMain>
-        <CtaButton>Get Quote</CtaButton>
+        <CtaButton>
+          <Link to="contact" spy={true} smooth={true}>
+            Get Quote
+          </Link>
+        </CtaButton>
       </HeroContentContainer>
     </HeroContainer>
   );
