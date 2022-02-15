@@ -29,6 +29,14 @@ const Heading = styled.h2`
   text-align: center;
   font-weight: 300;
   font-size: 6rem;
+
+  @media (max-width: 425px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 4rem;
+  }
 `;
 
 const CoalSourceCards = styled.div`
@@ -43,6 +51,13 @@ const CoalSourceCard = styled.div`
   border-radius: 35px;
   padding: 2rem 5rem;
   margin: 5rem;
+  @media (max-width: 768px) {
+    margin: 3rem;
+  }
+
+  @media (max-width: 425px) {
+    width: 90%;
+  }
 `;
 const CoalSourceImage = styled.img`
   width: 70%;
@@ -56,6 +71,10 @@ const CoalSourceText = styled.p`
   font-weight: 600;
   text-align: center;
   margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 4rem;
+  }
 `;
 
 export default CoalSource;

@@ -23,6 +23,14 @@ const Heading = styled.h2`
   color: var(--primary-color);
   font-size: 8rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 5rem;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 3.5rem;
+  }
 `;
 
 const SubHeading = styled.p`

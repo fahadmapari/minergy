@@ -7,8 +7,11 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
-html, body{
+html{
   font-size: 62.5%;
+}
+
+html, body{
   background: #2B2A29;
   font-family: 'Poppins', sans-serif;
   height: 100%;
@@ -27,6 +30,20 @@ html, body{
 
 a{
   cursor: pointer;
+}
+
+@media (min-width: 1400px){
+  
+  html{
+    font-size: 55%;
+  }
+}
+
+@media (min-width: 1024px){
+  
+  html{
+    font-size: 50%;
+  }
 }
 
 `;

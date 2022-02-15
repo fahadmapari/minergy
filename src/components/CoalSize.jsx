@@ -21,6 +21,10 @@ const Heading = styled.h2`
   font-weight: 300;
   font-size: 6rem;
   text-align: center;
+
+  @media (max-width: 425px) {
+    font-size: 4rem;
+  }
 `;
 
 const CoalImage = styled.img`

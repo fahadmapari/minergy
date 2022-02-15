@@ -26,6 +26,15 @@ const Heading = styled.h2`
   font-size: 8rem;
   text-align: center;
   margin: 2rem 0rem;
+
+  @media (max-width: 768px) {
+    font-size: 6rem;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 4rem;
+    padding: 1rem;
+  }
 `;
 
 export default CoalSection;

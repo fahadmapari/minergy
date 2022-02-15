@@ -45,12 +45,27 @@ const HeroContentContainer = styled.div`
 const HeroText = styled.h2`
   font-size: 5rem;
   font-weight: 400;
+
+  @media (max-width: 425px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 2.8rem;
+  }
 `;
 
 const HeroTextMain = styled.h2`
   font-size: 10rem;
   line-height: 1;
   color: var(--primary-color);
+  @media (max-width: 425px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 3rem;
+  }
   /* text-shadow: 0px 3px rgba(255, 255, 255, 0.5); */
 `;
 
@@ -68,6 +83,14 @@ const CtaButton = styled.a`
   &:hover {
     background: transparent;
     border: 2px solid var(--primary-color);
+  }
+
+  @media (max-width: 425px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 2.8rem;
   }
 `;
 

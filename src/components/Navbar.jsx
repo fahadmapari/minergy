@@ -21,9 +21,20 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 425px) {
+    padding: 2rem 2rem;
+  }
 `;
 const Logo = styled.img`
   width: 30rem;
+
+  @media (max-width: 425px) {
+    width: 20rem;
+  }
+  @media (max-width: 320px) {
+    width: 15rem;
+  }
 `;
 
 const Cta = styled.a`
@@ -35,6 +46,14 @@ const Cta = styled.a`
   border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
+
+  @media (max-width: 425px) {
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 1rem;
+  }
 `;
 
 export default Navbar;

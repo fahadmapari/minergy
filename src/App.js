@@ -7,6 +7,8 @@ import FeatureSection from "./components/FeatureSection";
 import FeatureTwoSection from "./components/FeatureTwoSection";
 import CoalSection from "./components/CoalSection";
 import DeliverySection from "./components/DeliverySection";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <FeatureTwoSection />
       <CoalSection />
       <DeliverySection />
+      <Contact />
+      <Footer />
     </>
   );
 }

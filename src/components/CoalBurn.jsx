@@ -5,7 +5,7 @@ import styled from "styled-components";
 function CoalBurn() {
   return (
     <CoalSizeContainer>
-      <Heading>Coal Size</Heading>
+      <Heading>Burning Capacity</Heading>
       <CoalImage src={coalBurn} />
     </CoalSizeContainer>
   );
@@ -13,6 +13,8 @@ function CoalBurn() {
 
 const CoalSizeContainer = styled.div`
   margin-top: 5rem;
+  position: relative;
+  z-index: 5;
 `;
 
 const Heading = styled.h2`
@@ -21,6 +23,10 @@ const Heading = styled.h2`
   font-weight: 300;
   font-size: 6rem;
   text-align: center;
+
+  @media (max-width: 425px) {
+    font-size: 4rem;
+  }
 `;
 
 const CoalImage = styled.img`

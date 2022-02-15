@@ -19,7 +19,7 @@ const CoalAvalConatiner = styled.div`
   position: relative;
   display: flex;
   align-items: end;
-  margin: 25rem 0rem;
+  margin: 10rem 0rem;
   margin-bottom: 5rem;
 `;
 const CoalText = styled.h2`
@@ -34,15 +34,24 @@ const CoalText = styled.h2`
     color: var(--primary-color);
     font-size: 4.5rem;
   }
+
+  @media (max-width: 425px) {
+    margin: 4rem 1.8rem;
+  }
 `;
 
 const Image = styled.img`
   position: absolute;
   bottom: 0;
   right: 10%;
-  width: 35%;
+  width: 40%;
   z-index: 1;
   opacity: 0.5;
+
+  @media (max-width: 425px) {
+    width: 90%;
+    opacity: 0.2;
+  }
 `;
 
 export default CoalAvail;

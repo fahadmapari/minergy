@@ -42,6 +42,14 @@ const Heading = styled.h2`
   font-size: 8rem;
   text-align: center;
   color: var(--primary-color);
+
+  @media (max-width: 425px) {
+    font-size: 4.8rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 3.3rem;
+  }
 `;
 
 const CardContainer = styled.div`
@@ -50,6 +58,10 @@ const CardContainer = styled.div`
   align-items: center;
   margin: 5rem 0rem;
   flex-wrap: wrap;
+
+  @media (max-width: 320px) {
+    margin: 1rem 0rem;
+  }
 `;
 
 export default HighlightSection;

@@ -15,6 +15,11 @@ const DeliveryCardContainer = styled.div`
   padding: 2rem 5rem;
   max-width: 40%;
   border-radius: 35px;
+
+  @media (max-width: 425px) {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
 `;
 
 const Icon = styled.img`

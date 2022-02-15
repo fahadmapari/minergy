@@ -76,6 +76,14 @@ const Card = styled.div`
     opacity: 1;
     transform: translateY(0%);
   }
+
+  @media (max-width: 768px) {
+    margin: 3rem;
+  }
+
+  @media (max-width: 425px) {
+    width: 80%;
+  }
 `;
 const Icon = styled.img`
   width: 50%;

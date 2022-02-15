@@ -25,7 +25,11 @@ const AboutSectionCotainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15rem auto;
+  margin: 15rem 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const LogoCard = styled.div`
@@ -36,7 +40,11 @@ const LogoCard = styled.div`
 `;
 
 const Logo = styled.img`
-  width: 25rem;
+  max-width: 25rem;
+
+  @media (max-width: 320px) {
+    max-width: 18rem;
+  }
 `;
 
 const AboutTextContainer = styled.div`
@@ -47,11 +55,36 @@ const AboutHeading = styled.h3`
   color: var(--primary-color);
   font-size: 8rem;
   text-decoration: underline;
+
+  @media (max-width: 1023px) {
+    font-size: 6rem;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 5rem;
+    margin: 2rem auto;
+  }
 `;
 
 const AboutText = styled.p`
   color: white;
   font-size: 2.3rem;
+
+  @media (max-width: 1023px) {
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 2rem;
+  }
 `;
 
 export default AboutSection;
