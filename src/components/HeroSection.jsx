@@ -22,7 +22,7 @@ function HeroSection() {
 
 const HeroContainer = styled.div`
   width: 100%;
-  height: calc(100% - 78px);
+  height: 100%;
   background-image: url(${heroImage});
   background-size: cover;
   background-position: center;

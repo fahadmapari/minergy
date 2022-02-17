@@ -9,11 +9,13 @@ import CoalSection from "./components/CoalSection";
 import DeliverySection from "./components/DeliverySection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ProgressBar from "react-scroll-progress-bar";
 
 function App() {
   return (
     <>
       <GlobalStyle />
+      <ProgressBar heigth="3" bgcolor="#B77A1A" />
       <Navbar />
       <HeroSection />
       <AboutSection />
