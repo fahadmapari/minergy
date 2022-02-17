@@ -7,29 +7,30 @@ function Contact() {
   return (
     <ContactSection>
       <Heading id="contact">Contact Us</Heading>
-      <ContactContainer>
+      <ContactContainer name="contact" method="POST" data-netlify="true">
         <ContactGroup>
           <Label>Name</Label>
-          <TextInput type="text" />
+          <TextInput name="Name" type="text" required />
+          <input type="hidden" name="form-name" value="contact"></input>
         </ContactGroup>
 
         <ContactGroup>
           <Label>Mobile Number</Label>
-          <TextInput type="text" />
+          <TextInput name="Mobile Number" type="tel" required />
         </ContactGroup>
 
         <ContactGroup>
           <Label>Email</Label>
-          <TextInput type="text" />
+          <TextInput name="Email" type="email" required />
         </ContactGroup>
 
         <ContactGroup>
           <Label>Message</Label>
-          <TextArea></TextArea>
+          <TextArea name="Message"></TextArea>
         </ContactGroup>
 
         <ContactGroup>
-          <Submit type="submit" value="SEND" />
+          <Submit type="submit">SEND</Submit>
         </ContactGroup>
       </ContactContainer>
       <ContactSeperator />
@@ -106,7 +107,9 @@ const TextArea = styled(TextInput).attrs({
   height: 20rem;
 `;
 
-const Submit = styled(TextInput)`
+const Submit = styled(TextInput).attrs({
+  as: "button",
+})`
   background: var(--primary-color);
   color: white;
   cursor: pointer;
@@ -114,6 +117,11 @@ const Submit = styled(TextInput)`
   font-size: 4rem;
   padding: 0.8rem 0rem;
   font-weight: 700;
+  transition: all 150ms ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
 
   @media (max-width: 425px) {
     margin-top: 2rem;
